@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>3542e553b37803000abf86d256a8dc7d</copied_from>
+        <copied_from_name>VTB Sample Flow</copied_from_name>
+        <description>NeeIt VTB Flow</description>
+        <internal_name>copy_of_vtb_sample_flow</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"},{"name":"47eb6b89-3a3e-450a-b6d7-c71d4e0378e6.Record","label":"2➛Visual Task Board Lane Record","reference":"vtb_lane","reference_display":"Visual Task Board Lane","type":"reference","base_type":"reference"},{"name":"b9b3d009-1491-4466-bbb9-f98d90e8bacd.Board","label":"1➛Board","reference":"vtb_board","reference_display":"Visual Task Board","type":"document_id","base_type":"document_id"},{"name":"Created_1.current.assigned_to","label":"Trigger➛Incident Record➛Assigned to","reference":"sys_user","reference_display":"Assigned to","type":"reference","base_type":"reference","parent_table_name":"incident","column_name":"assigned_to"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>NeedIt VTB Flow</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8997ef44db050010dddb6f774896191a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>NeedIt VTB Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_8997ef44db050010dddb6f774896191a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 21:15:32</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=8997ef44db050010dddb6f774896191a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8997ef44db050010dddb6f774896191a"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=8997ef44db050010dddb6f774896191a^sys_idNOT IN5597ef44db050010dddb6f7748961935,9197ef44db050010dddb6f7748961939,9d97ef44db050010dddb6f774896192e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">bf0256c10b30030085c083eb37673ac0</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <compiled_snapshot>bf0256c10b30030085c083eb37673ac0</compiled_snapshot>
+        <display_text/>
+        <flow display_value="NeedIt VTB Flow">8997ef44db050010dddb6f774896191a</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>5597ef44db050010dddb6f7748961935</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 21:15:32</sys_updated_on>
+        <ui_id>47eb6b89-3a3e-450a-b6d7-c71d4e0378e6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5597ef44db050010dddb6f7748961935"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5597ef44db050010dddb6f7748961935</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>5197ef44db050010dddb6f7748961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <value>vtb_lane</value>
+        <variable display_value="">b70256c10b30030085c083eb37673ac3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5597ef44db050010dddb6f7748961935"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>5597ef44db050010dddb6f7748961935</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>1d97ef44db050010dddb6f7748961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value>board={{b9b3d009-1491-4466-bbb9-f98d90e8bacd.Board}}^name=To Do</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>5597ef44db050010dddb6f7748961935</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>dd97ef44db050010dddb6f7748961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create VTB Card">dc5c60692fc00300e8f802d3c18c9590</action_type>
+        <action_type_parent display_value="Create VTB Card">7b7b2c292fc00300e8f802d3c18c95f4</action_type_parent>
+        <comment>Assign the incident as a task to the board</comment>
+        <compiled_snapshot>dc5c60692fc00300e8f802d3c18c9590</compiled_snapshot>
+        <display_text/>
+        <flow display_value="NeedIt VTB Flow">8997ef44db050010dddb6f774896191a</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>9197ef44db050010dddb6f7748961939</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 21:15:32</sys_updated_on>
+        <ui_id>5ad44c7f-f7e1-4a68-8031-cc4f75d992c0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9197ef44db050010dddb6f7748961939"/>
+    <sys_element_mapping action="delete_multiple" query="id=9197ef44db050010dddb6f7748961939"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Board</field>
+        <id>9197ef44db050010dddb6f7748961939</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>5d97ef44db050010dddb6f774896193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_dc5c60692fc00300e8f802d3c18c9590</table>
+        <value>{{b9b3d009-1491-4466-bbb9-f98d90e8bacd.Board}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Lane</field>
+        <id>9197ef44db050010dddb6f7748961939</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>d597ef44db050010dddb6f774896193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_dc5c60692fc00300e8f802d3c18c9590</table>
+        <value>{{47eb6b89-3a3e-450a-b6d7-c71d4e0378e6.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Task</field>
+        <id>9197ef44db050010dddb6f7748961939</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>9997ef44db050010dddb6f774896193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_dc5c60692fc00300e8f802d3c18c9590</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Freeform VTB">06ebb06d2fc00300e8f802d3c18c95ea</action_type>
+        <action_type_parent display_value="Create Freeform VTB">f1ca3c2d2fc00300e8f802d3c18c9541</action_type_parent>
+        <comment>Create a task board assigned to the incident owner</comment>
+        <compiled_snapshot>06ebb06d2fc00300e8f802d3c18c95ea</compiled_snapshot>
+        <display_text/>
+        <flow display_value="NeedIt VTB Flow">8997ef44db050010dddb6f774896191a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>9d97ef44db050010dddb6f774896192e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 21:15:32</sys_updated_on>
+        <ui_id>b9b3d009-1491-4466-bbb9-f98d90e8bacd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9d97ef44db050010dddb6f774896192e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9d97ef44db050010dddb6f774896192e</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>1d97ef44db050010dddb6f7748961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <value>vtb-board-color-1</value>
+        <variable display_value="">1eebf06d2fc00300e8f802d3c18c953e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9d97ef44db050010dddb6f774896192e</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>5597ef44db050010dddb6f7748961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">82ebf06d2fc00300e8f802d3c18c9518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9d97ef44db050010dddb6f774896192e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>9197ef44db050010dddb6f7748961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <value>P1 Incidents</value>
+        <variable display_value="">02ebb06d2fc00300e8f802d3c18c95ed</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9d97ef44db050010dddb6f774896192e</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>dd97ef44db050010dddb6f7748961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">c2ebf06d2fc00300e8f802d3c18c9525</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9d97ef44db050010dddb6f774896192e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Background_Color</field>
+        <id>9d97ef44db050010dddb6f774896192e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>5d97ef44db050010dddb6f7748961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_06ebb06d2fc00300e8f802d3c18c95ea</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Label_Visibility</field>
+        <id>9d97ef44db050010dddb6f774896192e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>1197ef44db050010dddb6f7748961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_06ebb06d2fc00300e8f802d3c18c95ea</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Name</field>
+        <id>9d97ef44db050010dddb6f774896192e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>d197ef44db050010dddb6f7748961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_06ebb06d2fc00300e8f802d3c18c95ea</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Owner</field>
+        <id>9d97ef44db050010dddb6f774896192e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>d197ef44db050010dddb6f7748961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_06ebb06d2fc00300e8f802d3c18c95ea</table>
+        <value>{{Created_1.current.assigned_to}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Picker_Visibility</field>
+        <id>9d97ef44db050010dddb6f774896192e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>9997ef44db050010dddb6f7748961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_06ebb06d2fc00300e8f802d3c18c95ea</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=8997ef44db050010dddb6f774896191a^sys_idNOT IN9197ef44db050010dddb6f774896193b"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="NeedIt VTB Flow">8997ef44db050010dddb6f774896191a</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>9197ef44db050010dddb6f774896193b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 21:15:32</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9197ef44db050010dddb6f774896193b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>9197ef44db050010dddb6f774896193b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>1197ef44db050010dddb6f774896193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <value>priority=1</value>
+        <variable display_value="">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>9197ef44db050010dddb6f774896193b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>d197ef44db050010dddb6f774896193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=8997ef44db050010dddb6f774896191a^sys_idNOT IN8997ef44db050010dddb6f774896191b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>8997ef44db050010dddb6f774896191a</id>
+        <name>Copy of VTB Sample Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:02</sys_created_on>
+        <sys_id>8997ef44db050010dddb6f774896191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:02</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=8997ef44db050010dddb6f774896191a^sys_idNOT IN1597ef44db050010dddb6f7748961921,9d97ef44db050010dddb6f7748961926"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="NeedIt VTB Flow">8997ef44db050010dddb6f774896191a</model>
+        <model_id>8997ef44db050010dddb6f774896191a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_8997ef44db050010dddb6f774896191a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:02</sys_created_on>
+        <sys_id>1597ef44db050010dddb6f7748961921</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 21:15:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="NeedIt VTB Flow">8997ef44db050010dddb6f774896191a</model>
+        <model_id>8997ef44db050010dddb6f774896191a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_8997ef44db050010dddb6f774896191a</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>9d97ef44db050010dddb6f7748961926</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 21:15:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=8997ef44db050010dddb6f774896191a^sys_idNOT IN5597ef44db050010dddb6f7748961935,9197ef44db050010dddb6f7748961939,9d97ef44db050010dddb6f774896192e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">bf0256c10b30030085c083eb37673ac0</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <compiled_snapshot>bf0256c10b30030085c083eb37673ac0</compiled_snapshot>
+        <display_text/>
+        <flow display_value="NeedIt VTB Flow">8997ef44db050010dddb6f774896191a</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>5597ef44db050010dddb6f7748961935</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 21:15:32</sys_updated_on>
+        <ui_id>47eb6b89-3a3e-450a-b6d7-c71d4e0378e6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5597ef44db050010dddb6f7748961935"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5597ef44db050010dddb6f7748961935</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>5197ef44db050010dddb6f7748961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <value>vtb_lane</value>
+        <variable display_value="">b70256c10b30030085c083eb37673ac3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5597ef44db050010dddb6f7748961935"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>5597ef44db050010dddb6f7748961935</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>1d97ef44db050010dddb6f7748961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value>board={{b9b3d009-1491-4466-bbb9-f98d90e8bacd.Board}}^name=To Do</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>5597ef44db050010dddb6f7748961935</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>dd97ef44db050010dddb6f7748961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create VTB Card">dc5c60692fc00300e8f802d3c18c9590</action_type>
+        <action_type_parent display_value="Create VTB Card">7b7b2c292fc00300e8f802d3c18c95f4</action_type_parent>
+        <comment>Assign the incident as a task to the board</comment>
+        <compiled_snapshot>dc5c60692fc00300e8f802d3c18c9590</compiled_snapshot>
+        <display_text/>
+        <flow display_value="NeedIt VTB Flow">8997ef44db050010dddb6f774896191a</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>9197ef44db050010dddb6f7748961939</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 21:15:32</sys_updated_on>
+        <ui_id>5ad44c7f-f7e1-4a68-8031-cc4f75d992c0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9197ef44db050010dddb6f7748961939"/>
+    <sys_element_mapping action="delete_multiple" query="id=9197ef44db050010dddb6f7748961939"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Board</field>
+        <id>9197ef44db050010dddb6f7748961939</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>5d97ef44db050010dddb6f774896193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_dc5c60692fc00300e8f802d3c18c9590</table>
+        <value>{{b9b3d009-1491-4466-bbb9-f98d90e8bacd.Board}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Lane</field>
+        <id>9197ef44db050010dddb6f7748961939</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>d597ef44db050010dddb6f774896193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_dc5c60692fc00300e8f802d3c18c9590</table>
+        <value>{{47eb6b89-3a3e-450a-b6d7-c71d4e0378e6.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Task</field>
+        <id>9197ef44db050010dddb6f7748961939</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>9997ef44db050010dddb6f774896193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_dc5c60692fc00300e8f802d3c18c9590</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Freeform VTB">06ebb06d2fc00300e8f802d3c18c95ea</action_type>
+        <action_type_parent display_value="Create Freeform VTB">f1ca3c2d2fc00300e8f802d3c18c9541</action_type_parent>
+        <comment>Create a task board assigned to the incident owner</comment>
+        <compiled_snapshot>06ebb06d2fc00300e8f802d3c18c95ea</compiled_snapshot>
+        <display_text/>
+        <flow display_value="NeedIt VTB Flow">8997ef44db050010dddb6f774896191a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>9d97ef44db050010dddb6f774896192e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 21:15:32</sys_updated_on>
+        <ui_id>b9b3d009-1491-4466-bbb9-f98d90e8bacd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9d97ef44db050010dddb6f774896192e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9d97ef44db050010dddb6f774896192e</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>1d97ef44db050010dddb6f7748961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <value>vtb-board-color-1</value>
+        <variable display_value="">1eebf06d2fc00300e8f802d3c18c953e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9d97ef44db050010dddb6f774896192e</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>5597ef44db050010dddb6f7748961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">82ebf06d2fc00300e8f802d3c18c9518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9d97ef44db050010dddb6f774896192e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>9197ef44db050010dddb6f7748961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <value>P1 Incidents</value>
+        <variable display_value="">02ebb06d2fc00300e8f802d3c18c95ed</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9d97ef44db050010dddb6f774896192e</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>dd97ef44db050010dddb6f7748961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">c2ebf06d2fc00300e8f802d3c18c9525</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9d97ef44db050010dddb6f774896192e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Background_Color</field>
+        <id>9d97ef44db050010dddb6f774896192e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>5d97ef44db050010dddb6f7748961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_06ebb06d2fc00300e8f802d3c18c95ea</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Label_Visibility</field>
+        <id>9d97ef44db050010dddb6f774896192e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>1197ef44db050010dddb6f7748961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_06ebb06d2fc00300e8f802d3c18c95ea</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Name</field>
+        <id>9d97ef44db050010dddb6f774896192e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>d197ef44db050010dddb6f7748961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_06ebb06d2fc00300e8f802d3c18c95ea</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Owner</field>
+        <id>9d97ef44db050010dddb6f774896192e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>d197ef44db050010dddb6f7748961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_06ebb06d2fc00300e8f802d3c18c95ea</table>
+        <value>{{Created_1.current.assigned_to}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Picker_Visibility</field>
+        <id>9d97ef44db050010dddb6f774896192e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>9997ef44db050010dddb6f7748961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_06ebb06d2fc00300e8f802d3c18c95ea</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_8997ef44db050010dddb6f774896191a^sys_idNOT IN1197ef44db050010dddb6f7748961926,1197ef44db050010dddb6f774896192b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8997ef44db050010dddb6f774896191a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>1197ef44db050010dddb6f7748961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_8997ef44db050010dddb6f774896191a_current_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8997ef44db050010dddb6f774896191a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 20:53:03</sys_created_on>
+        <sys_id>1197ef44db050010dddb6f774896192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_8997ef44db050010dddb6f774896191a_table_name_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 20:53:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>4699443cdb553f804d2bac44d49619a4</instance_id>
+        <instance_name>dev85305</instance_name>
+        <name>sys_hub_flow_8997ef44db050010dddb6f774896191a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from&gt;3542e553b37803000abf86d256a8dc7d&lt;/copied_from&gt;&lt;copied_from_name&gt;VTB Sample Flow&lt;/copied_from_name&gt;&lt;description&gt;NeeIt VTB Flow&lt;/description&gt;&lt;internal_name&gt;copy_of_vtb_sample_flow&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Created_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"},{"name":"47eb6b89-3a3e-450a-b6d7-c71d4e0378e6.Record","label":"2➛Visual Task Board Lane Record","reference":"vtb_lane","reference_display":"Visual Task Board Lane","type":"reference","base_type":"reference"},{"name":"b9b3d009-1491-4466-bbb9-f98d90e8bacd.Board","label":"1➛Board","reference":"vtb_board","reference_display":"Visual Task Board","type":"document_id","base_type":"document_id"},{"name":"Created_1.current.assigned_to","label":"Trigger➛Incident Record➛Assigned to","reference":"sys_user","reference_display":"Assigned to","type":"reference","base_type":"reference","parent_table_name":"incident","column_name":"assigned_to"}]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;name&gt;NeedIt VTB Flow&lt;/name&gt;&lt;outputs/&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;system&lt;/run_as&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:02&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8997ef44db050010dddb6f774896191a&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;NeedIt VTB Flow&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_8997ef44db050010dddb6f774896191a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 21:15:32&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=8997ef44db050010dddb6f774896191a"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=8997ef44db050010dddb6f774896191a"/&gt;&lt;sys_hub_flow_component action="delete_multiple" query="flow=8997ef44db050010dddb6f774896191a^sys_idNOT IN5597ef44db050010dddb6f7748961935,9197ef44db050010dddb6f7748961939,9d97ef44db050010dddb6f774896192e"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Record"&gt;bf0256c10b30030085c083eb37673ac0&lt;/action_type&gt;&lt;action_type_parent display_value="Look Up Record"&gt;b93f42810b30030085c083eb37673a63&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;bf0256c10b30030085c083eb37673ac0&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="NeedIt VTB Flow"&gt;8997ef44db050010dddb6f774896191a&lt;/flow&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;5597ef44db050010dddb6f7748961935&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 21:15:32&lt;/sys_updated_on&gt;&lt;ui_id&gt;47eb6b89-3a3e-450a-b6d7-c71d4e0378e6&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=5597ef44db050010dddb6f7748961935"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;5597ef44db050010dddb6f7748961935&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;5197ef44db050010dddb6f7748961937&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;value&gt;vtb_lane&lt;/value&gt;&lt;variable display_value=""&gt;b70256c10b30030085c083eb37673ac3&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=5597ef44db050010dddb6f7748961935"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;5597ef44db050010dddb6f7748961935&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;1d97ef44db050010dddb6f7748961936&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0&lt;/table&gt;&lt;value&gt;board={{b9b3d009-1491-4466-bbb9-f98d90e8bacd.Board}}^name=To Do&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table&lt;/field&gt;&lt;id&gt;5597ef44db050010dddb6f7748961935&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;dd97ef44db050010dddb6f7748961936&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create VTB Card"&gt;dc5c60692fc00300e8f802d3c18c9590&lt;/action_type&gt;&lt;action_type_parent display_value="Create VTB Card"&gt;7b7b2c292fc00300e8f802d3c18c95f4&lt;/action_type_parent&gt;&lt;comment&gt;Assign the incident as a task to the board&lt;/comment&gt;&lt;compiled_snapshot&gt;dc5c60692fc00300e8f802d3c18c9590&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="NeedIt VTB Flow"&gt;8997ef44db050010dddb6f774896191a&lt;/flow&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;9197ef44db050010dddb6f7748961939&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 21:15:32&lt;/sys_updated_on&gt;&lt;ui_id&gt;5ad44c7f-f7e1-4a68-8031-cc4f75d992c0&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=9197ef44db050010dddb6f7748961939"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=9197ef44db050010dddb6f7748961939"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;Board&lt;/field&gt;&lt;id&gt;9197ef44db050010dddb6f7748961939&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;5d97ef44db050010dddb6f774896193a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_dc5c60692fc00300e8f802d3c18c9590&lt;/table&gt;&lt;value&gt;{{b9b3d009-1491-4466-bbb9-f98d90e8bacd.Board}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;Lane&lt;/field&gt;&lt;id&gt;9197ef44db050010dddb6f7748961939&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;d597ef44db050010dddb6f774896193a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_dc5c60692fc00300e8f802d3c18c9590&lt;/table&gt;&lt;value&gt;{{47eb6b89-3a3e-450a-b6d7-c71d4e0378e6.Record}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;Task&lt;/field&gt;&lt;id&gt;9197ef44db050010dddb6f7748961939&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;9997ef44db050010dddb6f774896193a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_dc5c60692fc00300e8f802d3c18c9590&lt;/table&gt;&lt;value&gt;{{Created_1.current}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create Freeform VTB"&gt;06ebb06d2fc00300e8f802d3c18c95ea&lt;/action_type&gt;&lt;action_type_parent display_value="Create Freeform VTB"&gt;f1ca3c2d2fc00300e8f802d3c18c9541&lt;/action_type_parent&gt;&lt;comment&gt;Create a task board assigned to the incident owner&lt;/comment&gt;&lt;compiled_snapshot&gt;06ebb06d2fc00300e8f802d3c18c95ea&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="NeedIt VTB Flow"&gt;8997ef44db050010dddb6f774896191a&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;9d97ef44db050010dddb6f774896192e&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 21:15:32&lt;/sys_updated_on&gt;&lt;ui_id&gt;b9b3d009-1491-4466-bbb9-f98d90e8bacd&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=9d97ef44db050010dddb6f774896192e"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;9d97ef44db050010dddb6f774896192e&lt;/document_key&gt;&lt;order&gt;5&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;1d97ef44db050010dddb6f7748961932&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;value&gt;vtb-board-color-1&lt;/value&gt;&lt;variable display_value=""&gt;1eebf06d2fc00300e8f802d3c18c953e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;9d97ef44db050010dddb6f774896192e&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;5597ef44db050010dddb6f7748961932&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;value&gt;1&lt;/value&gt;&lt;variable display_value=""&gt;82ebf06d2fc00300e8f802d3c18c9518&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;9d97ef44db050010dddb6f774896192e&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;9197ef44db050010dddb6f7748961933&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;value&gt;P1 Incidents&lt;/value&gt;&lt;variable display_value=""&gt;02ebb06d2fc00300e8f802d3c18c95ed&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;9d97ef44db050010dddb6f774896192e&lt;/document_key&gt;&lt;order&gt;4&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;dd97ef44db050010dddb6f7748961932&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;value&gt;1&lt;/value&gt;&lt;variable display_value=""&gt;c2ebf06d2fc00300e8f802d3c18c9525&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=9d97ef44db050010dddb6f774896192e"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;Background_Color&lt;/field&gt;&lt;id&gt;9d97ef44db050010dddb6f774896192e&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;5d97ef44db050010dddb6f7748961931&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_06ebb06d2fc00300e8f802d3c18c95ea&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;Label_Visibility&lt;/field&gt;&lt;id&gt;9d97ef44db050010dddb6f774896192e&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;1197ef44db050010dddb6f7748961932&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_06ebb06d2fc00300e8f802d3c18c95ea&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;Name&lt;/field&gt;&lt;id&gt;9d97ef44db050010dddb6f774896192e&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;d197ef44db050010dddb6f7748961932&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_06ebb06d2fc00300e8f802d3c18c95ea&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;Owner&lt;/field&gt;&lt;id&gt;9d97ef44db050010dddb6f774896192e&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;d197ef44db050010dddb6f7748961931&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_06ebb06d2fc00300e8f802d3c18c95ea&lt;/table&gt;&lt;value&gt;{{Created_1.current.assigned_to}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;Picker_Visibility&lt;/field&gt;&lt;id&gt;9d97ef44db050010dddb6f774896192e&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;9997ef44db050010dddb6f7748961931&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_06ebb06d2fc00300e8f802d3c18c95ea&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=8997ef44db050010dddb6f774896191a^sys_idNOT IN9197ef44db050010dddb6f774896193b"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="NeedIt VTB Flow"&gt;8997ef44db050010dddb6f774896191a&lt;/flow&gt;&lt;name&gt;Created&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;9197ef44db050010dddb6f774896193b&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 21:15:32&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created"&gt;798916a0c31322002841b63b12d3ae7c&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=9197ef44db050010dddb6f774896193b"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;9197ef44db050010dddb6f774896193b&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;1197ef44db050010dddb6f774896193c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;value&gt;priority=1&lt;/value&gt;&lt;variable display_value=""&gt;66aadea0c31322002841b63b12d3aebf&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;9197ef44db050010dddb6f774896193b&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;d197ef44db050010dddb6f774896193c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;value&gt;incident&lt;/value&gt;&lt;variable display_value=""&gt;cfca92e0c31322002841b63b12d3ae00&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=8997ef44db050010dddb6f774896191a^sys_idNOT IN8997ef44db050010dddb6f774896191b"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;8997ef44db050010dddb6f774896191a&lt;/id&gt;&lt;name&gt;Copy of VTB Sample Flow&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:02&lt;/sys_created_on&gt;&lt;sys_id&gt;8997ef44db050010dddb6f774896191b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:02&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=8997ef44db050010dddb6f774896191a^sys_idNOT IN1597ef44db050010dddb6f7748961921,9d97ef44db050010dddb6f7748961926"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="NeedIt VTB Flow"&gt;8997ef44db050010dddb6f774896191a&lt;/model&gt;&lt;model_id&gt;8997ef44db050010dddb6f774896191a&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_8997ef44db050010dddb6f774896191a&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:02&lt;/sys_created_on&gt;&lt;sys_id&gt;1597ef44db050010dddb6f7748961921&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 21:15:32&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="NeedIt VTB Flow"&gt;8997ef44db050010dddb6f774896191a&lt;/model&gt;&lt;model_id&gt;8997ef44db050010dddb6f774896191a&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_8997ef44db050010dddb6f774896191a&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;9d97ef44db050010dddb6f7748961926&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 21:15:32&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=8997ef44db050010dddb6f774896191a^sys_idNOT IN5597ef44db050010dddb6f7748961935,9197ef44db050010dddb6f7748961939,9d97ef44db050010dddb6f774896192e"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Record"&gt;bf0256c10b30030085c083eb37673ac0&lt;/action_type&gt;&lt;action_type_parent display_value="Look Up Record"&gt;b93f42810b30030085c083eb37673a63&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;bf0256c10b30030085c083eb37673ac0&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="NeedIt VTB Flow"&gt;8997ef44db050010dddb6f774896191a&lt;/flow&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;5597ef44db050010dddb6f7748961935&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 21:15:32&lt;/sys_updated_on&gt;&lt;ui_id&gt;47eb6b89-3a3e-450a-b6d7-c71d4e0378e6&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=5597ef44db050010dddb6f7748961935"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;5597ef44db050010dddb6f7748961935&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;5197ef44db050010dddb6f7748961937&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;value&gt;vtb_lane&lt;/value&gt;&lt;variable display_value=""&gt;b70256c10b30030085c083eb37673ac3&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=5597ef44db050010dddb6f7748961935"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;5597ef44db050010dddb6f7748961935&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;1d97ef44db050010dddb6f7748961936&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0&lt;/table&gt;&lt;value&gt;board={{b9b3d009-1491-4466-bbb9-f98d90e8bacd.Board}}^name=To Do&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table&lt;/field&gt;&lt;id&gt;5597ef44db050010dddb6f7748961935&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;dd97ef44db050010dddb6f7748961936&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create VTB Card"&gt;dc5c60692fc00300e8f802d3c18c9590&lt;/action_type&gt;&lt;action_type_parent display_value="Create VTB Card"&gt;7b7b2c292fc00300e8f802d3c18c95f4&lt;/action_type_parent&gt;&lt;comment&gt;Assign the incident as a task to the board&lt;/comment&gt;&lt;compiled_snapshot&gt;dc5c60692fc00300e8f802d3c18c9590&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="NeedIt VTB Flow"&gt;8997ef44db050010dddb6f774896191a&lt;/flow&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;9197ef44db050010dddb6f7748961939&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 21:15:32&lt;/sys_updated_on&gt;&lt;ui_id&gt;5ad44c7f-f7e1-4a68-8031-cc4f75d992c0&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=9197ef44db050010dddb6f7748961939"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=9197ef44db050010dddb6f7748961939"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;Board&lt;/field&gt;&lt;id&gt;9197ef44db050010dddb6f7748961939&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;5d97ef44db050010dddb6f774896193a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_dc5c60692fc00300e8f802d3c18c9590&lt;/table&gt;&lt;value&gt;{{b9b3d009-1491-4466-bbb9-f98d90e8bacd.Board}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;Lane&lt;/field&gt;&lt;id&gt;9197ef44db050010dddb6f7748961939&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;d597ef44db050010dddb6f774896193a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_dc5c60692fc00300e8f802d3c18c9590&lt;/table&gt;&lt;value&gt;{{47eb6b89-3a3e-450a-b6d7-c71d4e0378e6.Record}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;Task&lt;/field&gt;&lt;id&gt;9197ef44db050010dddb6f7748961939&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;9997ef44db050010dddb6f774896193a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_dc5c60692fc00300e8f802d3c18c9590&lt;/table&gt;&lt;value&gt;{{Created_1.current}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create Freeform VTB"&gt;06ebb06d2fc00300e8f802d3c18c95ea&lt;/action_type&gt;&lt;action_type_parent display_value="Create Freeform VTB"&gt;f1ca3c2d2fc00300e8f802d3c18c9541&lt;/action_type_parent&gt;&lt;comment&gt;Create a task board assigned to the incident owner&lt;/comment&gt;&lt;compiled_snapshot&gt;06ebb06d2fc00300e8f802d3c18c95ea&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="NeedIt VTB Flow"&gt;8997ef44db050010dddb6f774896191a&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;9d97ef44db050010dddb6f774896192e&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 21:15:32&lt;/sys_updated_on&gt;&lt;ui_id&gt;b9b3d009-1491-4466-bbb9-f98d90e8bacd&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=9d97ef44db050010dddb6f774896192e"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;9d97ef44db050010dddb6f774896192e&lt;/document_key&gt;&lt;order&gt;5&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;1d97ef44db050010dddb6f7748961932&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;value&gt;vtb-board-color-1&lt;/value&gt;&lt;variable display_value=""&gt;1eebf06d2fc00300e8f802d3c18c953e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;9d97ef44db050010dddb6f774896192e&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;5597ef44db050010dddb6f7748961932&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;value&gt;1&lt;/value&gt;&lt;variable display_value=""&gt;82ebf06d2fc00300e8f802d3c18c9518&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;9d97ef44db050010dddb6f774896192e&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;9197ef44db050010dddb6f7748961933&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;value&gt;P1 Incidents&lt;/value&gt;&lt;variable display_value=""&gt;02ebb06d2fc00300e8f802d3c18c95ed&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;9d97ef44db050010dddb6f774896192e&lt;/document_key&gt;&lt;order&gt;4&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;dd97ef44db050010dddb6f7748961932&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;value&gt;1&lt;/value&gt;&lt;variable display_value=""&gt;c2ebf06d2fc00300e8f802d3c18c9525&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=9d97ef44db050010dddb6f774896192e"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;Background_Color&lt;/field&gt;&lt;id&gt;9d97ef44db050010dddb6f774896192e&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;5d97ef44db050010dddb6f7748961931&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_06ebb06d2fc00300e8f802d3c18c95ea&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;Label_Visibility&lt;/field&gt;&lt;id&gt;9d97ef44db050010dddb6f774896192e&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;1197ef44db050010dddb6f7748961932&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_06ebb06d2fc00300e8f802d3c18c95ea&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;Name&lt;/field&gt;&lt;id&gt;9d97ef44db050010dddb6f774896192e&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;d197ef44db050010dddb6f7748961932&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_06ebb06d2fc00300e8f802d3c18c95ea&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;Owner&lt;/field&gt;&lt;id&gt;9d97ef44db050010dddb6f774896192e&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;d197ef44db050010dddb6f7748961931&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_06ebb06d2fc00300e8f802d3c18c95ea&lt;/table&gt;&lt;value&gt;{{Created_1.current.assigned_to}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;Picker_Visibility&lt;/field&gt;&lt;id&gt;9d97ef44db050010dddb6f774896192e&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;9997ef44db050010dddb6f7748961931&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_06ebb06d2fc00300e8f802d3c18c95ea&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_8997ef44db050010dddb6f774896191a^sys_idNOT IN1197ef44db050010dddb6f7748961926,1197ef44db050010dddb6f774896192b"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_8997ef44db050010dddb6f774896191a&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;1197ef44db050010dddb6f7748961926&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Record&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_documentation_var__m_sys_hub_flow_input_8997ef44db050010dddb6f774896191a_current_en&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_8997ef44db050010dddb6f774896191a&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-06 20:53:03&lt;/sys_created_on&gt;&lt;sys_id&gt;1197ef44db050010dddb6f774896192b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Table Name&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_documentation_var__m_sys_hub_flow_input_8997ef44db050010dddb6f774896191a_table_name_en&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-06 20:53:03&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>55788791</payload_hash>
+        <record_name>NeedIt VTB Flow</record_name>
+        <reverted_from/>
+        <source>fec3e67fdbf00010dddb6f774896191f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 21:15:33</sys_created_on>
+        <sys_id>b6bceb88db050010dddb6f774896197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e4292952a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 21:15:33</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>32bceb889505001061650d09b17d0f7c</update_guid>
+        <update_guid_history>32bceb889505001061650d09b17d0f7c:55788791,f5bcab88c4050010530ffd3b5fdcc0f2:991472042,aaf7678423050010b2f1255be05fa59b:-186817222,1197ef4443050010529c8a5af420a11f:-821825908</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-06 21:57:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>132b73f4d3ce406984bf818dcde618b1</sys_id>
+        <sys_metadata>8997ef44db050010dddb6f774896191a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt VTB Flow</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_8997ef44db050010dddb6f774896191a</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_8997ef44db050010dddb6f774896191a">b6bceb88db050010dddb6f774896197c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-06 21:57:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
